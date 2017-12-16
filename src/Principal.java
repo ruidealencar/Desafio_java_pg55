@@ -24,8 +24,6 @@ public class Principal
 		double notaInst_2Aluno1 = a1.setNotaParte1(Double.parseDouble(JOptionPane.showInputDialog("Nota Institucuinal 2 "+t1.getAluno1())));
 		double np2Aluno1 = a1.calcularNotaTotal(notaParcial_2Aluno1, notaInst_2Aluno1);
 		double mediaGeralAuno1 = a1.calcularMediaGeral(np1Aluno1, np2Aluno1);
-		System.out.println(np1Aluno1);
-		System.out.println(np2Aluno1);
 		
 		double notaParcial_1Aluno2 = a1.setNotaParte1(Double.parseDouble(JOptionPane.showInputDialog("Nota Parcial 1 "+t1.getAluno2())));
 		double notaInst_1Aluno2 = a1.setNotaParte1(Double.parseDouble(JOptionPane.showInputDialog("Nota Institucional 1 "+t1.getAluno2())));
